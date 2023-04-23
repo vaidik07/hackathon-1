@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chatbot Javascript </title>
+<link rel="stylesheet" href="chatbot2.css" />
+</head>
+<body>
+    
+    <img class ="Albert_image" src="peesuke.jpeg"  width="500" height="600">
+<div class="glass">
+<h1 style="color: aliceblue;font:bold;">Rawrrr!! I am Peesuke</h1>
+<h2 style="color: aliceblue;font:bold;">Ask me some questions</h2>
+<div class="input">
+<input
+type="text"
+id="userBox"
+onkeydown="if(event.keyCode == 13){ talk()}"
+placeholder="What is your favorite quote?"
+/>
+</div>
+<p id="chatLog"></p>
+</div>
+<script src="chatbot2.js"></script>
+</body>
+</html>
