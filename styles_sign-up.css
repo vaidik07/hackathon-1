@@ -1,0 +1,92 @@
+/* @font-face {
+    font-family: 'Equinox', sans-serif;
+    src: url('https://fonts.cdnfonts.com/css/equinox');
+    font-weight: bold;
+  } */
+
+@font-face {
+    font-family: 'equinoxregular';
+    src: url('equinox_regular-webfont.woff2') format('woff2'),
+         url('equinox_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Equinox', sans-serif;
+    /* font-family: ; */
+    margin-top: 3em;
+    color: rgb(255, 255, 255);
+    background-image: url("images/image.webp");
+    padding-bottom: 6rem;
+}
+p{
+    margin-top: 0;
+    font-size: 0.67rem;
+    color: grey;
+}
+h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+h4{
+    font-weight: bolder;
+}
+.form-elements{
+    display: inline-block;
+}
+form{
+    padding-left: 200px;
+}
+input{
+    background-color: rgb(243, 242, 242);
+    border: none;
+    border-radius: 4px;
+    height: 3rem;
+    width: 80%;
+}
+
+img{
+    width: 650px;
+    padding-top: 100px;
+}
+div.col-sm-6{
+    padding-top: 35px ;
+    padding-left: 0.5em;
+    padding-right: 0;
+}
+::placeholder{
+    padding-left: 15px;
+}
+.email,.pass{
+    padding: 15px 0;
+    width:80%
+}
+input.remember{
+    width: 0.6rem;
+    height:0.75rem;
+}
+.remember{
+    font-size: small;
+}
+.forgot_pass a{
+    padding: 0;
+    color: #CF0A0A;
+}
+.btn{
+    width: 80%;
+    height: 3rem;
+}
+.btn-light{
+    margin-top: 10px;
+}
+.signin{
+    background-color: rgba(197,157,233,255);
+    margin-top: 35px;
+}
+:hover.signin{
+    background-color: rgba(134,79,153,255);
+    color: white;
+}
+
